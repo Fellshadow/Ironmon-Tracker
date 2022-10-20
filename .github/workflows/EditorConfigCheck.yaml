@@ -1,7 +1,7 @@
 name: EditorConfig Checker
 
 on:
-	pull_request:
+  pull_request:
 		branches:
 			- 'fellshadow/testing-workflows'
 		paths-ignore:
@@ -11,6 +11,8 @@ jobs:
 	editorconfig:
 		runs-on: ubuntu-latest
 		steps:
-		  - uses: actions/checkout@v3
-			- uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
-			- run: editorconfig-checker
+			- name: Checkout Branch
+				uses: actions/checkout@v3
+			- name: Run EditorConfig Checker
+				uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
+				run: editorconfig-checker
