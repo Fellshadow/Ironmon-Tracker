@@ -12,4 +12,4 @@ jobs:
       - name: Luacheck linter
         uses: lunarmodules/luacheck@v1.0.0
         with:
-          args: '--std lua51c'
+          args: '. --std lua51c'
