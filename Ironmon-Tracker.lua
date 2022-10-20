@@ -1,4 +1,4 @@
-_G.Main = {}
+Main = {}
 
 -- The latest version of the tracker. Should be updated with each PR.
 Main.Version = { major = "6", minor = "4", patch = "2" }
