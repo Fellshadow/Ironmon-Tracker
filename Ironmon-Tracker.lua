@@ -1,4 +1,3 @@
--- luacheck: globals Main
 Main = {}
 
 -- The latest version of the tracker. Should be updated with each PR.
