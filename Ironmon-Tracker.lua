@@ -1,7 +1,7 @@
 Main = {}
 
 -- The latest version of the tracker. Should be updated with each PR.
-Main.Version = { major = "6", minor = "4", patch = "2" }
+Main.Version = { major = "6", minor = "4", patch = "2" }    
 
 Main.CreditsList = { -- based on the PokemonBizhawkLua project by MKDasher
 	CreatedBy = "Besteon",
@@ -10,7 +10,7 @@ Main.CreditsList = { -- based on the PokemonBizhawkLua project by MKDasher
 
 -- Returns false if an error occurs that completely prevents the Tracker from functioning; otherwise, returns true
 function Main.Initialize()
-	Main.TrackerVersion = string.format("%s.%s.%s", Main.Version.major, Main.Version.minor, Main.Version.patch)
+        Main.TrackerVersion = string.format("%s.%s.%s", Main.Version.major, Main.Version.minor, Main.Version.patch)
 	Main.Version.remindMe = true
 	Main.Version.latestAvailable = Main.TrackerVersion
 	Main.Version.dateChecked = ""
