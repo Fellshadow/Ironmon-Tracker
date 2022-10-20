@@ -2,6 +2,7 @@ name: Luacheck
 on:
   push:
     branches-ignore: ['fellshadow/main']
+    paths: '**.lua'
 jobs:
   sile:
     runs-on: ubuntu-latest
