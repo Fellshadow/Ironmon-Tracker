@@ -49,6 +49,6 @@ stds.trackerglobals = {
   "Debug",
   "Symbols",
 }
-std.otherglobals = {"love"}
+stds.otherglobals = {"love"}
 std = "lua51c+bizhawklibs+trackerglobals+otherglobals"
 ignore = {"631"}
