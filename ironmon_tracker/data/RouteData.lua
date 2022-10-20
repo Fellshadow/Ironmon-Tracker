@@ -294,6 +294,7 @@ function RouteData.getIndexForGameVersion()
 end
 
 -- Currently unused, as it only pulls randomized data and not vanilla pokemon data
+-- luacheck: push ignore
 function RouteData.readWildPokemonInfoFromMemory()
 	GameSettings.gWildMonHeaders = 0x083c9d28 -- size:00000a64
 
@@ -370,6 +371,7 @@ function RouteData.readWildPokemonInfoFromMemory()
 		-- print(headerBytes)
 	end
 end
+-- luacheck: pop
 
 -- https://github.com/pret/pokefirered/blob/918ed2d31eeeb036230d0912cc2527b83788bc85/include/constants/layouts.h
 -- https://www.serebii.net/pokearth/kanto/3rd/route1.shtml
