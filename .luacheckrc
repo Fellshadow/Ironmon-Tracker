@@ -43,3 +43,4 @@ stds.trackerglobals = {
 }
 std = "lua51c+bizhawklibs+otherglobals+trackerglobals"
 ignore = {"631", "212/self"}
+exclude_files = {"ironmon_tracker/Inifile.lua"}
