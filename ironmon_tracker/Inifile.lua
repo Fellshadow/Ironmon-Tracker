@@ -40,7 +40,7 @@ local backends = {
 	},
 	memory = {
 		lines = function(text) return text:gmatch("([^\r\n]+)\r?\n") end,
-		write = function(name, contents) return contents end,
+		write = function(name, contents) return contents end, -- luacheck: no unused args
 	},
 }
 
