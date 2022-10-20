@@ -5,6 +5,7 @@ on:
     branches:
       - 'fellshadow/testing-workflows'
     paths-ignore:
+      - '.github/**'
       - 'ironmon_tracker/images/**'
 
 jobs:
