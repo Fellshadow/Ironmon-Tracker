@@ -3,7 +3,7 @@ name: EditorConfig Checker
 on:
 	pull_request:
 		branches:
-			- fellshadow/testing-workflows
+			- 'fellshadow/testing-workflows'
 		paths-ignore:
 			- 'ironmon_tracker/images/**'
 
