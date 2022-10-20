@@ -1,4 +1,4 @@
-Main = {}
+_G.Main = {}
 
 -- The latest version of the tracker. Should be updated with each PR.
 Main.Version = { major = "6", minor = "4", patch = "2" }
@@ -7,8 +7,6 @@ Main.CreditsList = { -- based on the PokemonBizhawkLua project by MKDasher
 	CreatedBy = "Besteon",
 	Contributors = { "UTDZac", "Fellshadow", "bdjeffyp", "OnlySpaghettiCode", "thisisatest", "Amber Cyprian", "ninjafriend", "kittenchilly", "AKD", "davidhouweling", "rcj001", "GB127", },
 }
-
-testVariable = "test"
 
 -- Returns false if an error occurs that completely prevents the Tracker from functioning; otherwise, returns true
 function Main.Initialize()
