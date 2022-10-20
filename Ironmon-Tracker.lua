@@ -8,6 +8,8 @@ Main.CreditsList = { -- based on the PokemonBizhawkLua project by MKDasher
 	Contributors = { "UTDZac", "Fellshadow", "bdjeffyp", "OnlySpaghettiCode", "thisisatest", "Amber Cyprian", "ninjafriend", "kittenchilly", "AKD", "davidhouweling", "rcj001", "GB127", },
 }
 
+testVariable = "test"
+
 -- Returns false if an error occurs that completely prevents the Tracker from functioning; otherwise, returns true
 function Main.Initialize()
 	Main.TrackerVersion = string.format("%s.%s.%s", Main.Version.major, Main.Version.minor, Main.Version.patch)
