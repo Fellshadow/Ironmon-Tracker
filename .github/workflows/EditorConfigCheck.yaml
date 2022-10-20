@@ -1,0 +1,16 @@
+name: EditorConfig Checker
+
+on:
+	pull_request:
+		branches:
+			- fellshadow/testing-workflows
+		paths-ignore:
+			- 'ironmon_tracker/images/**'
+
+jobs:
+	editorconfig:
+		runs-on: ubuntu-latest
+		steps:
+		  - uses: actions/checkout@v3
+			- uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
+			- run: editorconfig-checker
