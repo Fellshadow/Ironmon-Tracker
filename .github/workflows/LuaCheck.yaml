@@ -4,7 +4,7 @@ on:
     paths: '**.lua'
   
 jobs:
-  sile:
+  luacheck_linter:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
