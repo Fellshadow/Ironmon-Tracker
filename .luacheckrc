@@ -11,6 +11,7 @@ stds.trackerglobals = {
     "GameSettings",
     "Inifile",
     "Input",
+    "Main",
     "Memory",
     "Options",
     "Pickle",
